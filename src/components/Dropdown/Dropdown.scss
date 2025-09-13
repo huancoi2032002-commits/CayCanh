@@ -1,0 +1,29 @@
+.dropdown {
+    position: relative;
+
+    &__menu {
+        @apply absolute left-0 mt-2 w-48 bg-white border rounded-md shadow-lg;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-10px);
+        transition: all 0.3s ease;
+
+        li {
+            @apply px-4 py-2 text-sm text-gray-700 hover:bg-gray-100;
+        }
+    }
+
+    // Desktop hover
+    &:hover .dropdown__menu {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+
+    // Mobile toggle class
+    &.open .dropdown__menu {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+}

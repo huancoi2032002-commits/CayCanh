@@ -1,0 +1,30 @@
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 6px;
+    border-radius: 5px;
+    background: #d1d5db; // default: xám toàn track
+    outline: none;
+    cursor: pointer;
+
+    &::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background: #111; // thumb màu đen
+        cursor: pointer;
+        position: relative;
+        z-index: 2;
+    }
+
+    &::-moz-range-thumb {
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background: #111;
+        cursor: pointer;
+        position: relative;
+        z-index: 2;
+    }
+}
