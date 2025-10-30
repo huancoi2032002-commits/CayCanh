@@ -13,7 +13,7 @@ const LayoutMain: React.FC<LayoutMainProps> = ({ children }) => {
             <div className="w-full">
                 <Header />
             </div>
-            <div className="lg:pt-[116px]">
+            <div className="lg:pt-[102px]">
                 {children}
             </div>
             <Footer />

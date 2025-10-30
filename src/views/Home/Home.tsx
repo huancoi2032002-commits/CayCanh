@@ -3,8 +3,9 @@ import LayoutMain from "../../layouts/LayoutMain/LayoutMain";
 import PostHome from "./Components/PostHome/PostHome";
 import WhyUs from "./Components/WhyUs/WhyUs";
 import Connect from "./Components/Connect/Connect";
-import ProductSection from "./ProductSection/ProductSection";
+import ProductSection from "./Components/ProductSection/ProductSection";
 import { productsData } from "../../store/Product/Product";
+import Banner from "./Components/Banner/Banner";
 
 interface HomeProps {
 
@@ -15,8 +16,10 @@ const Home: React.FC<HomeProps> = () => {
     return (
         <LayoutMain>
             <div className="pb-10 w-full">
-                <div className="w-full h-[600px]">Banner</div>
-                <div className="w-full max-w-[1200px] h-full flex items-center mx-auto justify-center">
+                <div className="w-full h-auto md:mb-[36px]">
+                    <Banner />
+                </div>
+                <div className="w-full max-w-[1200px] h-full flex items-center mx-auto justify-center ">
                     <ProductSection
                         title="Sản phẩm mới"
                         products={[...productsData]

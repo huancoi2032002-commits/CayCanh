@@ -1,7 +1,3 @@
-interface PostListProps {
-    
-}
- 
 const PostList = () => {
     return (  
         <div>

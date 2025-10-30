@@ -5,6 +5,8 @@ interface WishlistProps {
 }
  
 const Wishlist: React.FC<WishlistProps> = () => {
+
+    
     return (  
         <div>Wishlist</div>
     );

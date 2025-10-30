@@ -1,17 +1,22 @@
-import { Suspense, lazy } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Suspense } from "react";
+import { Routes, Route } from "react-router-dom";
 import ProductDetail from "./views/Product/Components/ProductDetail/ProductDetail";
+import Loading from "./components/Loading/Loading";
+import Home from "./views/Home/Home";
+import Product from "./views/Product/Product";
+import Blog from "./views/Blog/Blog";
+import Wishlist from "./views/Wishlist/Wishlist";
 
-const Home = lazy(() => import("./views/Home/Home"));
-const Product = lazy(() => import("./views/Product/Product"));
 
 function App() {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<Loading />}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Product />} />
         <Route path="/products/:idProduct" element={<ProductDetail />} />
+        <Route path="/blog" element={<Blog  />} />
+        <Route path="/wishlist" element={<Wishlist  />} />
       </Routes>
     </Suspense>
   );

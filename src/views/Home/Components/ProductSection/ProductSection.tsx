@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
-import ProductItem from "../../../components/ProductItem/ProductItem";
-import { productsData } from "../../../store/Product/Product";
+import ProductItem from "../../../../components/ProductItem/ProductItem";
+import { productsData } from "../../../../store/Product/Product";
 
 interface ProductSectionProps {
     title: string;
@@ -14,8 +14,8 @@ const ProductSection: React.FC<ProductSectionProps> = ({ title, products, limit,
     const displayProducts = limit ? products.slice(0, limit) : products;
 
     return (
-        <div className="py-8 w-full">
-            <h2 className="text-2xl lg:text-[40px] font-medium mb-4 text-center">{title}</h2>
+        <div className="w-full py-[36px]">
+            <h2 className="text-2xl lg:text-[40px] font-medium mb-[30px] text-center">{title}</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {displayProducts.map(product => (
                     <ProductItem
