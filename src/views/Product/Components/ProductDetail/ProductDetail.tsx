@@ -119,17 +119,17 @@ const ProductDetail = () => {
                         </div>
 
                         <div className="flex flex-col gap-2 mt-4">
-                            <Link to="https://www.facebook.com/Huan.Nguyen.LD" target="_blank" rel="noopener noreferrer">
+                            <Link to="https://www.facebook.com/ucnguyen.337352" target="_blank" rel="noopener noreferrer">
                                 <button className="bg-[#5433EB] h-[50px] w-full text-lg text-white cursor-pointer hover:bg-[#5433EB]/90">
                                     Liên hệ Facebook
                                 </button>
                             </Link>
-                            <Link to="https://www.facebook.com/Huan.Nguyen.LD" target="_blank" rel="noopener noreferrer">
+                            <Link to="https://zalo.me/0817913888 " target="_blank" rel="noopener noreferrer">
                                 <button className="bg-[#5433EB] h-[50px] w-full text-lg text-white cursor-pointer hover:bg-[#5433EB]/90">
                                     Liên hệ Zalo
                                 </button>
                             </Link>
-                            <Link to="https://www.facebook.com/Huan.Nguyen.LD" target="_blank" rel="noopener noreferrer">
+                            <Link to="https://www.tiktok.com/@mdo_treehouse" target="_blank" rel="noopener noreferrer">
                                 <button className="bg-[#5433EB] h-[50px] w-full text-lg text-white cursor-pointer hover:bg-[#5433EB]/90">
                                     Liên hệ TikTok
                                 </button>
