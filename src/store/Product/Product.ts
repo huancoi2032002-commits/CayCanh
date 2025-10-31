@@ -7,8 +7,8 @@ export interface ProductProps {
     description: string;      // Mô tả ngắn
     longDescription?: string; // Mô tả dài chi tiết
     images: string[];
-    price: number;
-    discountPrice?: number;
+    price: string;
+    //discountPrice?: number;
     inStock: boolean;
     category?: string;
     tags?: string[];
@@ -22,31 +22,114 @@ export interface ProductProps {
 }
 
 
-
 export const productsData: ProductProps[] = [
-    { 
-        id: "1", 
-        name: "Monstera Deli", 
-        secondName: "Monstera đột biến trắng",
-        description: "Cây phong thủy", 
-        images: ["/cay.jpg", "/cay.jpg", "/cay.jpg"], 
-        price: 4900000, 
-        height: "2m5 đến 3m" , 
-        discountPrice: 20, 
-        inStock: true, 
-        createdAt: "2025-01-01" ,
+    {
+        id: "1",
+        name: "Monstera Albo Variegata",
+        secondName: "Trầu bà Nam Mỹ đột biến",
+        description: "Cây phong thủy",
+        images: [
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_1.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_2.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_3.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_4.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_5.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_6.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_7.jpg",
+        ],
+        price: "999k - 1tr390",
+        height: "Size trưởng thành",
+        inStock: true,
+        createdAt: "2025-10-31",
         applications: [
-            "Trang trí nội thất (văn phòng, sảnh, quán cà phê, nhà hàng).",
-            "Được xem là cây phong thủy mang ý nghĩa sinh trưởng, thịnh vượng."
+            "Tượng trưng cho sự sinh trưởng, may mắn, thịnh vượng và tài lộc.",
+            "Lá xẻ to, hình tim, màu sắc xen kẽ thể hiện sự cân bằng giữa âm – dương, hài hòa trong cuộc sống.",
+            "Giúp gia chủ dễ gặp quý nhân, công việc thuận lợi, đặc biệt trong lĩnh vực sáng tạo, nghệ thuật, hoặc kinh doanh."
         ]
     },
-    { id: "2", name: "Hoya Obovata Variegated", description: "Cây leo", images: ["/cay.jpg", "/cay.jpg", "/cay.jpg"], price: 1900000, inStock: false, createdAt: "2025-02-01" },
-    { id: "3", name: "Philodendron Paraiso Verde", description: "Cây quý hiếm", images: ["/cay.jpg", "/cay.jpg", "/cay.jpg"], price: 85, inStock: true, createdAt: "2025-03-01" },
-    { id: "4", name: "Syngonium White Butterfly", description: "Cây trang trí", images: ["/cay.jpg", "/cay.jpg", "/cay.jpg"], price: 37, inStock: true, createdAt: "2025-04-01" },
-    { id: "5", name: "Syngonium White Butterfly", description: "Cây trang trí", images: ["/cay.jpg", "/cay.jpg", "/cay.jpg"], price: 37, inStock: true, createdAt: "2025-04-01" },
-    { id: "6", name: "Syngonium White Butterfly", description: "Cây trang trí", images: ["/cay.jpg", "/cay.jpg", "/cay.jpg"], price: 370000, inStock: true, createdAt: "2025-04-01" },
-    { id: "7", name: "Syngonium White Butterfly", description: "Cây trang trí", images: ["/cay.jpg", "/cay.jpg", "/cay.jpg"], price: 37000, inStock: true, createdAt: "2025-04-01" },
-    { id: "8", name: "Syngonium White Butterfly", description: "Cây trang trí", images: ["/cay.jpg", "/cay.jpg", "/cay.jpg"], price: 37, inStock: true, createdAt: "2025-04-01" },
-    { id: "9", name: "Syngonium White Butterfly", description: "Cây trang trí", images: ["/cay.jpg", "/cay.jpg", "/cay.jpg"], price: 37, inStock: true, createdAt: "2025-04-01" },
-    { id: "10", name: "Syngonium White Butterfly", description: "Cây trang trí", images: ["/cay.jpg", "/cay.jpg", "/cay.jpg"], price: 49, discountPrice: 10, inStock: true, createdAt: "2025-04-01" },
+    {
+        id: "2",
+        name: "Monstera Thaicons",
+        secondName: "Trầu bà Nam Mỹ Thái đột biến",
+        description: "Cây phong thủy",
+        images: [
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_10.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_9.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_8.jpg",
+        ],
+        price: "270K - 350k",
+        height: "Size nhỏ",
+        inStock: true,
+        createdAt: "2025-10-31",
+        applications: [
+            "Lá xẻ sâu tượng trưng cho sức sống mãnh liệt, sự phát triển bền vững.",
+            "Phòng khách, văn phòng, nơi làm việc, quầy lễ tân → thu hút tài lộc, tăng năng lượng tích cực.",
+            "Màu xanh – vàng xen kẽ biểu hiện cân bằng năng lượng âm dương, mang đến may mắn, thịnh vượng và sáng suốt."
+        ]
+    },
+    {
+        id: "3",
+        name: "Monstera Thaicons",
+        secondName: "Trầu bà Nam Mỹ Thái đột biến (Thaicons premium)",
+        description: "Cây phong thủy",
+        images: [
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_12.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_11.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_13.jpg",
+        ],
+        price: "400k - 750k",
+        height: "Size trưởng thành",
+        inStock: true,
+        createdAt: "2025-10-31",
+        applications: [
+            "Lá xẻ sâu tượng trưng cho sức sống mãnh liệt, sự phát triển bền vững.",
+            "Phòng khách, văn phòng, nơi làm việc, quầy lễ tân → thu hút tài lộc, tăng năng lượng tích cực.",
+            "Màu xanh – vàng xen kẽ biểu hiện cân bằng năng lượng âm dương, mang đến may mắn, thịnh vượng và sáng suốt."
+        ]
+    },
+    {
+        id: "4",
+        name: "Monstera Deli Cận Đại",
+        secondName: "Trầu bà Nam Mỹ",
+        description: "Cây phong thủy",
+        images: [
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_17.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_14.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_15.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_16.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_18.jpg",
+        ],
+        price: "1tr5 - 1tr7",
+        height: "Size Lớn",
+        inStock: true,
+        createdAt: "2025-10-31",
+        applications: [
+            "Là phiên bản “cổ điển” nhất của họ Monstera — dễ trồng, dễ chăm, phát triển nhanh.",
+            "Dù không đột biến nhưng vẫn được giới chơi cây và thiết kế nội thất ưa chuộng nhờ vẻ sang trọng, hiện đại.",
+        ]
+    },
+    {
+        id: "5",
+        name: "Monstera Deli",
+        secondName: "Trầu bà Nam Mỹ",
+        description: "Cây phong thủy",
+        images: [
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_19.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_20.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_21.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_22.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_23.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_24.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_25.jpg",
+        ],
+        price: "3tr - 3tr9",
+        height: "Size Đại",
+        inStock: true,
+        createdAt: "2025-10-31",
+        applications: [
+            "Biểu tượng của thịnh vượng và may mắn: Lá to, xanh đậm biểu trưng cho sự sung túc, phát triển mạnh mẽ.",
+            "Tượng trưng cho thăng tiến: Cây thân leo cao, hướng sáng – tượng trưng cho sự vươn lên, thành công trong sự nghiệp.",
+            "Màu xanh – vàng xen kẽ biểu hiện cân bằng năng lượng âm dương, mang đến may mắn, thịnh vượng và sáng suốt."
+        ]
+    },
 ];

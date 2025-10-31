@@ -12,7 +12,6 @@ interface HomeProps {
 }
 
 const Home: React.FC<HomeProps> = () => {
-    const flashSaleProducts = productsData.filter(p => p.discountPrice !== undefined);
     return (
         <LayoutMain>
             <div className="pb-10 w-full">
@@ -37,13 +36,6 @@ const Home: React.FC<HomeProps> = () => {
                     link="/bai-viet/vuon-nang-xanh"
                     
                 />
-                <div className="w-full max-w-[1200px] h-full flex items-center mx-auto justify-center">
-                    <ProductSection
-                        title="Sản phẩm mới"
-                        products={flashSaleProducts}
-                        type="flash-sale"
-                    />
-                </div>
                 <WhyUs />
                 <Connect />
             </div>

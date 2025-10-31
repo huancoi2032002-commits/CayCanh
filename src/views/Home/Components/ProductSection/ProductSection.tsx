@@ -25,7 +25,6 @@ const ProductSection: React.FC<ProductSectionProps> = ({ title, products, limit,
                         description={product.description}
                         images={product.images}
                         price={product.price}
-                        discountPrice={product.discountPrice}
                         inStock={product.inStock}
                     />
                 ))}
