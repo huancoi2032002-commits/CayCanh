@@ -3,15 +3,11 @@ import type React from "react";
 interface PostHomeProps {
     category?: string;
     title: string;
-    excerpt: string;
-    link: string;
 }
 
 const PostHome: React.FC<PostHomeProps> = ({
     category = "Vườn đẹp - Decor - Nội thất kiểng lá",
     title,
-    excerpt,
-    link,
 }) => {
     return (
         <article className="bg-[#936be80d] py-10 px-4 lg:px-12">
@@ -24,14 +20,12 @@ const PostHome: React.FC<PostHomeProps> = ({
                     <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 leading-snug">
                         {title}
                     </h2>
-                    <p className="text-gray-600">{excerpt}</p>
-                    <a
-                        href={link}
-                        title={title}
-                        className="inline-block bg-green-600 text-white font-semibold px-6 py-3 rounded-full hover:bg-green-700 transition"
-                    >
-                        Đọc Thêm
-                    </a>
+                    <div>
+                        <p className="text-gray-600">MDO•Tree House•</p>
+                        <p className="text-gray-600">Cung cấp kiểng lá cho mọi không gian</p>
+                        <p className="text-gray-600">Cung cấp hơn 30 chủng loại cây nhiệt đới cho mọi không gian</p>
+                        <p className="text-gray-600">Liên hệ trực tiếp <a href="tel:0817913888" className="underline text-blue-600">08 179 13888</a> - Minh Đức.</p>
+                    </div>
                 </div>
 
                 {/* Right image */}

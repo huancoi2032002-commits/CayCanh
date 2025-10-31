@@ -31,8 +31,6 @@ const Home: React.FC<HomeProps> = () => {
                 </div>
                 <PostHome
                     title="MDO TREE HOUSE"
-                    excerpt="MDO•Tree House•Cung cấp kiểng lá cho mọi không gian"
-                    link="/bai-viet/vuon-nang-xanh"
                 />
                 <WhyUs />
                 <Connect />

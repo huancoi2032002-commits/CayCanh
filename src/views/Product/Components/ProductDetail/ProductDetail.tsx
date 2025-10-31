@@ -97,7 +97,7 @@ const ProductDetail = () => {
 
                         <div className="italic">
                             <span className="text-[18px]">
-                                (Chưa bao gồm chi phí vận chuyển)
+                                ({product.shipping ? product.shipping : "Chưa bao gồm chi phí vận chuyển"})
                             </span>
                         </div>
 
