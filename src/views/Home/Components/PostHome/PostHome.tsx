@@ -4,7 +4,6 @@ interface PostHomeProps {
     category?: string;
     title: string;
     excerpt: string;
-    image: string;
     link: string;
 }
 
@@ -12,7 +11,6 @@ const PostHome: React.FC<PostHomeProps> = ({
     category = "Vườn đẹp - Decor - Nội thất kiểng lá",
     title,
     excerpt,
-    image,
     link,
 }) => {
     return (
@@ -38,11 +36,8 @@ const PostHome: React.FC<PostHomeProps> = ({
 
                 {/* Right image */}
                 <div className="relative flex flex-col items-center border p-4">
-                    <h3 className="text-green-700 font-semibold text-lg mb-2">
-                        VƯỜN NẮNG XANH
-                    </h3>
                     <img
-                        src={image}
+                        src="https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_25.jpg"
                         alt={title}
                         loading="lazy"
                         className="w-full h-auto object-cover"

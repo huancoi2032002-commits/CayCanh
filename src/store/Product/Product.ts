@@ -123,6 +123,29 @@ export const productsData: ProductProps[] = [
             "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_25.jpg",
         ],
         price: "3tr - 3tr9",
+        height: "Cao từ 2m5 - 2m8",
+        inStock: true,
+        createdAt: "2025-10-31",
+        applications: [
+            "Biểu tượng của thịnh vượng và may mắn: Lá to, xanh đậm biểu trưng cho sự sung túc, phát triển mạnh mẽ.",
+            "Tượng trưng cho thăng tiến: Cây thân leo cao, hướng sáng – tượng trưng cho sự vươn lên, thành công trong sự nghiệp.",
+            "Màu xanh – vàng xen kẽ biểu hiện cân bằng năng lượng âm dương, mang đến may mắn, thịnh vượng và sáng suốt."
+        ]
+    },
+        {
+        id: "6",
+        name: "Monstera Deli Để Bàn",
+        secondName: "Trầu bà Nam Mỹ",
+        description: "Cây phong thủy",
+        images: [
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_27.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_28.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_29.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_30.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_31.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_32.jpg",
+        ],
+        price: "110k",
         height: "Size Đại",
         inStock: true,
         createdAt: "2025-10-31",

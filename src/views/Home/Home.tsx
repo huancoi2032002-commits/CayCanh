@@ -30,11 +30,9 @@ const Home: React.FC<HomeProps> = () => {
                     />
                 </div>
                 <PostHome
-                    title="Những nhà vườn kiểng lá lớn ở Việt Nam: Vườn Nắng Xanh (Tây Ninh)"
-                    excerpt="Nếu bạn mới bắt đầu tập tành chơi kiểng lá và đang tìm một nhà vườn uy tín..."
-                    image="/images/posts/vuon-nang-xanh.jpg"
+                    title="MDO TREE HOUSE"
+                    excerpt="MDO•Tree House•Cung cấp kiểng lá cho mọi không gian"
                     link="/bai-viet/vuon-nang-xanh"
-                    
                 />
                 <WhyUs />
                 <Connect />
