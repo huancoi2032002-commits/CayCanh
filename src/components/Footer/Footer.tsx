@@ -44,7 +44,7 @@ const Footer = () => {
             <div className="max-w-[1200px] mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
                 {/* About Section */}
                 <div>
-                    <h2 className="text-lg font-semibold mb-4">Về Đức</h2>
+                    <h2 className="text-lg font-semibold mb-4">Về MDO•Tree House•</h2>
                     <p className="text-sm leading-relaxed text-gray-700">
                         Đức là một cá nhân được thành lập vào tháng 4/2024, chuyên bán các
                         loại cây cảnh như Arecaceae, Hoya và Succulents. Chúng tôi cam kết
@@ -141,7 +141,7 @@ const Footer = () => {
 
             {/* Copyright */}
             <div className="border-t border-t-black/20 mt-8 pt-4 text-center text-xs text-gray-500 w-full">
-                © {new Date().getFullYear()} Đức Cây Cảnh. All rights reserved.
+                © {new Date().getFullYear()} MDO•Tree House•. All rights reserved.
             </div>
         </footer>
     );
