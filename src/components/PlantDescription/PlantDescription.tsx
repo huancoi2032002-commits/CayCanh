@@ -24,11 +24,11 @@ interface PlantDescriptionProps {
     sections: Section[];
 }
 
-const PlantDescription: React.FC<PlantDescriptionProps> = ({ name, intro, sections }) => {
+const PlantDescription: React.FC<PlantDescriptionProps> = ({ intro, sections }) => {
     return (
         <div className="bg-white rounded-2xl shadow-md p-6 md:p-10 mt-10">
             <h1 className="text-center text-3xl font-bold mb-4">
-                Mô tả chi tiết — {name}
+                Mô tả chi tiết
             </h1>
             <p className="text-lg text-gray-700 mb-6 text-justify">{intro}</p>
 

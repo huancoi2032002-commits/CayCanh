@@ -23,7 +23,7 @@ const ProductItem: React.FC<ProductProps> = ({
                 {/* Nội dung */}
                 <div className="p-4 flex flex-col flex-1">
                     <p className="text-xs text-gray-500">Mã: {id}</p>
-                    <h3 className="font-bold text-lg text-gray-800">{name}</h3>
+                    <h3 className="font-bold text-lg text-gray-800 truncate">{name}</h3>
                     <p className="text-sm text-gray-600 flex-1">{description}</p>
 
                     {/* Giá */}

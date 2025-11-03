@@ -193,10 +193,448 @@ export const productsData: ProductProps[] = [
             "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_32.jpg",
         ],
         price: "600k/cặp",
-        shipping: "Đã bao gồm chi phí vận chuyển",
+        shipping: "Chưa bao gồm chi phí vận chuyển",
         height: "1m3",
         inStock: true,
         createdAt: "2025-10-31",
+        applications: [
+            "Biểu tượng của thịnh vượng và may mắn: Lá to, xanh đậm biểu trưng cho sự sung túc, phát triển mạnh mẽ.",
+            "Tượng trưng cho thăng tiến: Cây thân leo cao, hướng sáng – tượng trưng cho sự vươn lên, thành công trong sự nghiệp.",
+            "Màu xanh – vàng xen kẽ biểu hiện cân bằng năng lượng âm dương, mang đến may mắn, thịnh vượng và sáng suốt."
+        ]
+    },
+    {
+        id: "9",
+        name: "Monstera Compacta",
+        secondName: "",
+        description: "Cây phong thủy",
+        images: [
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_88.jpg",
+        ],
+        price: "499k",
+        shipping: "Chưa bao gồm chi phí vận chuyển",
+        height: "Size Nhỏ",
+        inStock: true,
+        createdAt: "2025-11-03",
+        applications: [
+            "Biểu tượng của thịnh vượng và may mắn: Lá to, xanh đậm biểu trưng cho sự sung túc, phát triển mạnh mẽ.",
+            "Tượng trưng cho thăng tiến: Cây thân leo cao, hướng sáng – tượng trưng cho sự vươn lên, thành công trong sự nghiệp.",
+            "Màu xanh – vàng xen kẽ biểu hiện cân bằng năng lượng âm dương, mang đến may mắn, thịnh vượng và sáng suốt."
+        ]
+    },
+    {
+        id: "10",
+        name: "Đế Vương Lâu",
+        secondName: "",
+        description: "Cây phong thủy",
+        images: [
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_105.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_91.jpg",
+        ],
+        price: "80k",
+        shipping: "Chưa bao gồm chi phí vận chuyển",
+        height: "Size Nhỏ",
+        inStock: true,
+        createdAt: "2025-11-03",
+        applications: [
+            "Biểu tượng của thịnh vượng và may mắn: Lá to, xanh đậm biểu trưng cho sự sung túc, phát triển mạnh mẽ.",
+            "Tượng trưng cho thăng tiến: Cây thân leo cao, hướng sáng – tượng trưng cho sự vươn lên, thành công trong sự nghiệp.",
+            "Màu xanh – vàng xen kẽ biểu hiện cân bằng năng lượng âm dương, mang đến may mắn, thịnh vượng và sáng suốt."
+        ]
+    },
+    {
+        id: "11",
+        name: "Đế Vương Vàng",
+        secondName: "",
+        description: "Cây phong thủy",
+        images: [
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_92.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_121.jpg",
+        ],
+        price: "80k",
+        shipping: "Chưa bao gồm chi phí vận chuyển",
+        height: "Size Nhỏ",
+        inStock: true,
+        createdAt: "2025-11-03",
+        applications: [
+            "Biểu tượng của thịnh vượng và may mắn: Lá to, xanh đậm biểu trưng cho sự sung túc, phát triển mạnh mẽ.",
+            "Tượng trưng cho thăng tiến: Cây thân leo cao, hướng sáng – tượng trưng cho sự vươn lên, thành công trong sự nghiệp.",
+            "Màu xanh – vàng xen kẽ biểu hiện cân bằng năng lượng âm dương, mang đến may mắn, thịnh vượng và sáng suốt."
+        ]
+    },
+    {
+        id: "12",
+        name: "Dương Xỉ Thái Thòng",
+        secondName: "",
+        description: "Cây phong thủy",
+        images: [
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_94.jpg",
+        ],
+        price: "80k",
+        shipping: "Chưa bao gồm chi phí vận chuyển",
+        height: "Size Nhỏ",
+        inStock: true,
+        createdAt: "2025-11-03",
+        applications: [
+            "Biểu tượng của thịnh vượng và may mắn: Lá to, xanh đậm biểu trưng cho sự sung túc, phát triển mạnh mẽ.",
+            "Tượng trưng cho thăng tiến: Cây thân leo cao, hướng sáng – tượng trưng cho sự vươn lên, thành công trong sự nghiệp.",
+            "Màu xanh – vàng xen kẽ biểu hiện cân bằng năng lượng âm dương, mang đến may mắn, thịnh vượng và sáng suốt."
+        ]
+    },
+    {
+        id: "13",
+        name: "Thiên Tuế",
+        secondName: "",
+        description: "Cây phong thủy",
+        images: [
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_95.jpg",
+        ],
+        price: "1tr6 - 3tr2",
+        shipping: "Chưa bao gồm chi phí vận chuyển",
+        height: "Size Nhỏ",
+        inStock: true,
+        createdAt: "2025-11-03",
+        applications: [
+            "Biểu tượng của thịnh vượng và may mắn: Lá to, xanh đậm biểu trưng cho sự sung túc, phát triển mạnh mẽ.",
+            "Tượng trưng cho thăng tiến: Cây thân leo cao, hướng sáng – tượng trưng cho sự vươn lên, thành công trong sự nghiệp.",
+            "Màu xanh – vàng xen kẽ biểu hiện cân bằng năng lượng âm dương, mang đến may mắn, thịnh vượng và sáng suốt."
+        ]
+    },
+    {
+        id: "14",
+        name: "Đuôi Công Khổng Tước",
+        secondName: "",
+        description: "Cây phong thủy",
+        images: [
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_107.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_106.jpg",
+        ],
+        price: "70k",
+        shipping: "Chưa bao gồm chi phí vận chuyển",
+        height: "Size Nhỏ",
+        inStock: true,
+        createdAt: "2025-11-03",
+        applications: [
+            "Biểu tượng của thịnh vượng và may mắn: Lá to, xanh đậm biểu trưng cho sự sung túc, phát triển mạnh mẽ.",
+            "Tượng trưng cho thăng tiến: Cây thân leo cao, hướng sáng – tượng trưng cho sự vươn lên, thành công trong sự nghiệp.",
+            "Màu xanh – vàng xen kẽ biểu hiện cân bằng năng lượng âm dương, mang đến may mắn, thịnh vượng và sáng suốt."
+        ]
+    },
+    {
+        id: "15",
+        name: "Dương Xỉ Culi",
+        secondName: "",
+        description: "Cây phong thủy",
+        images: [
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_96.jpg",
+        ],
+        price: "130k - 230k",
+        shipping: "Chưa bao gồm chi phí vận chuyển",
+        height: "Size Nhỏ",
+        inStock: true,
+        createdAt: "2025-11-03",
+        applications: [
+            "Biểu tượng của thịnh vượng và may mắn: Lá to, xanh đậm biểu trưng cho sự sung túc, phát triển mạnh mẽ.",
+            "Tượng trưng cho thăng tiến: Cây thân leo cao, hướng sáng – tượng trưng cho sự vươn lên, thành công trong sự nghiệp.",
+            "Màu xanh – vàng xen kẽ biểu hiện cân bằng năng lượng âm dương, mang đến may mắn, thịnh vượng và sáng suốt."
+        ]
+    },
+    {
+        id: "16",
+        name: "Lục Quạ",
+        secondName: "",
+        description: "Cây phong thủy",
+        images: [
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_97.jpg",
+        ],
+        price: "60k",
+        shipping: "Chưa bao gồm chi phí vận chuyển",
+        height: "Size Nhỏ",
+        inStock: true,
+        createdAt: "2025-11-03",
+        applications: [
+            "Biểu tượng của thịnh vượng và may mắn: Lá to, xanh đậm biểu trưng cho sự sung túc, phát triển mạnh mẽ.",
+            "Tượng trưng cho thăng tiến: Cây thân leo cao, hướng sáng – tượng trưng cho sự vươn lên, thành công trong sự nghiệp.",
+            "Màu xanh – vàng xen kẽ biểu hiện cân bằng năng lượng âm dương, mang đến may mắn, thịnh vượng và sáng suốt."
+        ]
+    },
+    {
+        id: "17",
+        name: "Râu Rồng",
+        secondName: "",
+        description: "Cây phong thủy",
+        images: [
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_33.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_34.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_35.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_127.jpg",
+        ],
+        price: "320k",
+        shipping: "Chưa bao gồm chi phí vận chuyển",
+        height: "Size Nhỏ",
+        inStock: true,
+        createdAt: "2025-11-03",
+        applications: [
+            "Biểu tượng của thịnh vượng và may mắn: Lá to, xanh đậm biểu trưng cho sự sung túc, phát triển mạnh mẽ.",
+            "Tượng trưng cho thăng tiến: Cây thân leo cao, hướng sáng – tượng trưng cho sự vươn lên, thành công trong sự nghiệp.",
+            "Màu xanh – vàng xen kẽ biểu hiện cân bằng năng lượng âm dương, mang đến may mắn, thịnh vượng và sáng suốt."
+        ]
+    },
+    {
+        id: "18",
+        name: "Cọ Lá Xếp",
+        secondName: "Cọ Nhật",
+        description: "Cây phong thủy",
+        images: [
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_108.jpg",
+        ],
+        price: "150k",
+        shipping: "Chưa bao gồm chi phí vận chuyển",
+        height: "Size Vừa",
+        inStock: true,
+        createdAt: "2025-11-03",
+        applications: [
+            "Biểu tượng của thịnh vượng và may mắn: Lá to, xanh đậm biểu trưng cho sự sung túc, phát triển mạnh mẽ.",
+            "Tượng trưng cho thăng tiến: Cây thân leo cao, hướng sáng – tượng trưng cho sự vươn lên, thành công trong sự nghiệp.",
+            "Màu xanh – vàng xen kẽ biểu hiện cân bằng năng lượng âm dương, mang đến may mắn, thịnh vượng và sáng suốt."
+        ]
+    },
+    {
+        id: "19",
+        name: "Trầu Bà Chân Vịt",
+        secondName: "Philodendron Xanadu",
+        description: "Cây phong thủy",
+        images: [
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_109.jpg",
+        ],
+        price: "90k",
+        shipping: "Chưa bao gồm chi phí vận chuyển",
+        height: "Size Vừa",
+        inStock: true,
+        createdAt: "2025-11-03",
+        applications: [
+            "Biểu tượng của thịnh vượng và may mắn: Lá to, xanh đậm biểu trưng cho sự sung túc, phát triển mạnh mẽ.",
+            "Tượng trưng cho thăng tiến: Cây thân leo cao, hướng sáng – tượng trưng cho sự vươn lên, thành công trong sự nghiệp.",
+            "Màu xanh – vàng xen kẽ biểu hiện cân bằng năng lượng âm dương, mang đến may mắn, thịnh vượng và sáng suốt."
+        ]
+    },
+    {
+        id: "20",
+        name: "Soobin",
+        secondName: "",
+        description: "Cây phong thủy",
+        images: [
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_110.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_118.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_119.jpg",
+        ],
+        price: "150k-450k",
+        shipping: "Chưa bao gồm chi phí vận chuyển",
+        height: "Size Vừa",
+        inStock: true,
+        createdAt: "2025-11-03",
+        applications: [
+            "Biểu tượng của thịnh vượng và may mắn: Lá to, xanh đậm biểu trưng cho sự sung túc, phát triển mạnh mẽ.",
+            "Tượng trưng cho thăng tiến: Cây thân leo cao, hướng sáng – tượng trưng cho sự vươn lên, thành công trong sự nghiệp.",
+            "Màu xanh – vàng xen kẽ biểu hiện cân bằng năng lượng âm dương, mang đến may mắn, thịnh vượng và sáng suốt."
+        ]
+    },
+    {
+        id: "21",
+        name: "Philodendron Gloriosum Dark Form",
+        secondName: "Trầu bà Gloriosum",
+        description: "Cây phong thủy",
+        images: [
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_112.jpg",
+        ],
+        price: "130k",
+        shipping: "Chưa bao gồm chi phí vận chuyển",
+        height: "Size Vừa",
+        inStock: true,
+        createdAt: "2025-11-03",
+        applications: [
+            "Biểu tượng của thịnh vượng và may mắn: Lá to, xanh đậm biểu trưng cho sự sung túc, phát triển mạnh mẽ.",
+            "Tượng trưng cho thăng tiến: Cây thân leo cao, hướng sáng – tượng trưng cho sự vươn lên, thành công trong sự nghiệp.",
+            "Màu xanh – vàng xen kẽ biểu hiện cân bằng năng lượng âm dương, mang đến may mắn, thịnh vượng và sáng suốt."
+        ]
+    },
+    {
+        id: "22",
+        name: "Caladium Hồng",
+        secondName: "Caladium Hồng",
+        description: "Cây phong thủy",
+        images: [
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_120.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_122.jpg",
+        ],
+        price: "99k-120k",
+        shipping: "Chưa bao gồm chi phí vận chuyển",
+        height: "Size Vừa",
+        inStock: true,
+        createdAt: "2025-11-03",
+        applications: [
+            "Biểu tượng của thịnh vượng và may mắn: Lá to, xanh đậm biểu trưng cho sự sung túc, phát triển mạnh mẽ.",
+            "Tượng trưng cho thăng tiến: Cây thân leo cao, hướng sáng – tượng trưng cho sự vươn lên, thành công trong sự nghiệp.",
+            "Màu xanh – vàng xen kẽ biểu hiện cân bằng năng lượng âm dương, mang đến may mắn, thịnh vượng và sáng suốt."
+        ]
+    },
+    {
+        id: "23",
+        name: "Hotumi",
+        secondName: "Platycerium Bifurcatum",
+        description: "Cây phong thủy",
+        images: [
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_117.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_115.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_116.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_123.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_124.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_124.jpg",
+        ],
+        price: "150k-450k",
+        shipping: "Chưa bao gồm chi phí vận chuyển",
+        height: "Size Vừa",
+        inStock: true,
+        createdAt: "2025-11-03",
+        applications: [
+            "Biểu tượng của thịnh vượng và may mắn: Lá to, xanh đậm biểu trưng cho sự sung túc, phát triển mạnh mẽ.",
+            "Tượng trưng cho thăng tiến: Cây thân leo cao, hướng sáng – tượng trưng cho sự vươn lên, thành công trong sự nghiệp.",
+            "Màu xanh – vàng xen kẽ biểu hiện cân bằng năng lượng âm dương, mang đến may mắn, thịnh vượng và sáng suốt."
+        ]
+    },
+    {
+        id: "24",
+        name: "Philodendron Pink Princess",
+        secondName: "Philodendron Erubescens",
+        description: "Cây phong thủy",
+        images: [
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_126.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_147.jpg",
+        ],
+        price: "80k",
+        shipping: "Chưa bao gồm chi phí vận chuyển",
+        height: "Size Vừa",
+        inStock: true,
+        createdAt: "2025-11-03",
+        applications: [
+            "Biểu tượng của thịnh vượng và may mắn: Lá to, xanh đậm biểu trưng cho sự sung túc, phát triển mạnh mẽ.",
+            "Tượng trưng cho thăng tiến: Cây thân leo cao, hướng sáng – tượng trưng cho sự vươn lên, thành công trong sự nghiệp.",
+            "Màu xanh – vàng xen kẽ biểu hiện cân bằng năng lượng âm dương, mang đến may mắn, thịnh vượng và sáng suốt."
+        ]
+    },
+    {
+        id: "25",
+        name: "Dương xỉ Tổ Quạ",
+        secondName: "Asplenium Nidus",
+        description: "Cây phong thủy",
+        images: [
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_128.jpg",
+        ],
+        price: "60k",
+        shipping: "Chưa bao gồm chi phí vận chuyển",
+        height: "Size Vừa",
+        inStock: true,
+        createdAt: "2025-11-03",
+        applications: [
+            "Biểu tượng của thịnh vượng và may mắn: Lá to, xanh đậm biểu trưng cho sự sung túc, phát triển mạnh mẽ.",
+            "Tượng trưng cho thăng tiến: Cây thân leo cao, hướng sáng – tượng trưng cho sự vươn lên, thành công trong sự nghiệp.",
+            "Màu xanh – vàng xen kẽ biểu hiện cân bằng năng lượng âm dương, mang đến may mắn, thịnh vượng và sáng suốt."
+        ]
+    },
+    {
+        id: "26",
+        name: "Cây Ráy Var Đột Biến",
+        secondName: "Alocasia Macrorrhiza Variegata",
+        description: "Cây phong thủy",
+        images: [
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_140.jpg",
+        ],
+        price: "150k",
+        shipping: "Chưa bao gồm chi phí vận chuyển",
+        height: "Size Vừa",
+        inStock: true,
+        createdAt: "2025-11-03",
+        applications: [
+            "Biểu tượng của thịnh vượng và may mắn: Lá to, xanh đậm biểu trưng cho sự sung túc, phát triển mạnh mẽ.",
+            "Tượng trưng cho thăng tiến: Cây thân leo cao, hướng sáng – tượng trưng cho sự vươn lên, thành công trong sự nghiệp.",
+            "Màu xanh – vàng xen kẽ biểu hiện cân bằng năng lượng âm dương, mang đến may mắn, thịnh vượng và sáng suốt."
+        ]
+    },
+    {
+        id: "27",
+        name: "Cây Melano",
+        secondName: "Melano",
+        description: "Cây phong thủy",
+        images: [
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_146.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_145.jpg",
+        ],
+        price: "150k-350k",
+        shipping: "Chưa bao gồm chi phí vận chuyển",
+        height: "Size Vừa",
+        inStock: true,
+        createdAt: "2025-11-03",
+        applications: [
+            "Biểu tượng của thịnh vượng và may mắn: Lá to, xanh đậm biểu trưng cho sự sung túc, phát triển mạnh mẽ.",
+            "Tượng trưng cho thăng tiến: Cây thân leo cao, hướng sáng – tượng trưng cho sự vươn lên, thành công trong sự nghiệp.",
+            "Màu xanh – vàng xen kẽ biểu hiện cân bằng năng lượng âm dương, mang đến may mắn, thịnh vượng và sáng suốt."
+        ]
+    },
+    {
+        id: "28",
+        name: "Cây Ổ rồng CORO Thuần",
+        secondName: "Ổ rồng CORO",
+        description: "Cây phong thủy",
+        images: [
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_144.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_143.jpg",
+        ],
+        price: "220k/1 râu",
+        shipping: "Chưa bao gồm chi phí vận chuyển",
+        height: "Size Vừa",
+        inStock: true,
+        createdAt: "2025-11-03",
+        applications: [
+            "Biểu tượng của thịnh vượng và may mắn: Lá to, xanh đậm biểu trưng cho sự sung túc, phát triển mạnh mẽ.",
+            "Tượng trưng cho thăng tiến: Cây thân leo cao, hướng sáng – tượng trưng cho sự vươn lên, thành công trong sự nghiệp.",
+            "Màu xanh – vàng xen kẽ biểu hiện cân bằng năng lượng âm dương, mang đến may mắn, thịnh vượng và sáng suốt."
+        ]
+    },
+    {
+        id: "29",
+        name: "Trầu bà Lỗ",
+        secondName: "Ổ rồng CORO",
+        description: "Cây phong thủy",
+        images: [
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_137.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_143.jpg",
+        ],
+        price: "120k",
+        shipping: "Chưa bao gồm chi phí vận chuyển",
+        height: "Size Vừa",
+        inStock: true,
+        createdAt: "2025-11-03",
+        applications: [
+            "Biểu tượng của thịnh vượng và may mắn: Lá to, xanh đậm biểu trưng cho sự sung túc, phát triển mạnh mẽ.",
+            "Tượng trưng cho thăng tiến: Cây thân leo cao, hướng sáng – tượng trưng cho sự vươn lên, thành công trong sự nghiệp.",
+            "Màu xanh – vàng xen kẽ biểu hiện cân bằng năng lượng âm dương, mang đến may mắn, thịnh vượng và sáng suốt."
+        ]
+    },
+    {
+        id: "30",
+        name: "Dương xỉ Thân Gỗ",
+        secondName: "Dương xỉ",
+        description: "Cây phong thủy",
+        images: [
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_151.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_149.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_150.jpg",
+        ],
+        price: "Bảng giá ở dưới mô tả",
+        shipping: "Chưa bao gồm chi phí vận chuyển",
+        height: "Mô tả",
+        inStock: true,
+        createdAt: "2025-11-03",
         applications: [
             "Biểu tượng của thịnh vượng và may mắn: Lá to, xanh đậm biểu trưng cho sự sung túc, phát triển mạnh mẽ.",
             "Tượng trưng cho thăng tiến: Cây thân leo cao, hướng sáng – tượng trưng cho sự vươn lên, thành công trong sự nghiệp.",
