@@ -1,4 +1,4 @@
-import type {PlantDescriptionData } from "../Type/Plants.ts";
+import type { PlantDescriptionData } from "../Type/Plants.ts";
 
 export const productDescriptions: Record<string, PlantDescriptionData> = {
     "1": {
@@ -122,6 +122,176 @@ export const productDescriptions: Record<string, PlantDescriptionData> = {
                 ]
             }
         ],
+    },
+    "2": {
+        name: "Monstera Thaicons",
+        intro: "Monstera Thaicons",
+        sections: [
+            {
+                title: "🌿 1. Thông tin tổng quan",
+                type: "table",
+                content: [
+                    { label: "<b>Nguồn gốc</b>", value: "Thái Lan" },
+                    { label: "<b>Họ</b>", value: "Araceae" },
+                ],
+            },
+            {
+                title: "🌱 2. Độ khó trồng và chăm sóc",
+                type: "difficulty",
+                content: {
+                    title: "Độ khó trồng cây Monstera Thai Constellation",
+                    level: 2.5,
+                    scale: 6,
+                    description: "Khá Dễ",
+                    labels: ["Rất Dễ", "Khá Dễ", "Dễ Trồng", "Hơi Khó", "Khá Khó", "Rất Khó"],
+                },
+            },
+            {
+                title: "Cây Monstera rất phù hợp cho người mới bắt đầu vì:",
+                type: "list",
+                content: [
+                    {
+                        title: "Ưu điểm",
+                        items: [
+                            "Dễ thích nghi với nhiều môi trường.",
+                            "Chăm sóc đơn giản, không cần tưới nước thường xuyên.",
+                            "Ít sâu bệnh, chỉ cần tránh tưới quá nhiều để không bị úng rễ."
+                        ]
+                    },
+                ]
+            },
+            {
+                title: "🌱 Công thức đất trồng Monstera chuẩn:",
+                type: "list",
+                content: [
+                    {
+                        title: "",
+                        items: [
+                            "<b>1 phần đất thịt nhẹ hoặc đất mùn </b>(cung cấp dinh dưỡng)",
+                            "<b>1 phần xơ dừa hoặc than bùn (peat moss) </b>(giữ ẩm)",
+                            "<b>1 phần trấu hun hoặc perlite </b>(giúp thoát nước, tránh úng)",
+                            "<b>1 phần vỏ cây mục hoặc đá pumice </b>(tăng độ thoáng khí)",
+                        ]
+
+                    },
+                    "🚫 <b>Tránh đất quá nén chặt hoặc giữ nước quá lâu</b>, vì dễ làm rễ bị thối.",
+                    {
+                        title: "💡 Lưu ý:",
+                        items: [
+                            "Nếu bạn trồng Monstera trong chậu, hãy đảm bảo <b>có lỗ thoát nước</b> dưới đáy chậu.",
+                            "<b>Có thể bón phân hữu cơ </b>(phân trùn quế, phân cá, hoặc phân tan chậm) 1-2 tháng/lần để cây phát triển mạnh.",
+                        ]
+                    },
+                ]
+            },
+            {
+                title: "Ánh sáng phù hợp cho cây Monstera Thai Constellation",
+                type: "list",
+                content: [
+                    "🔆 <b>Sáng gián tiếp, trung bình đến mạnh </b>(Bright, Indirect Light) là tốt nhất!",
+                    {
+                        title: "<b>Chi tiết về ánh sáng:</b>",
+                        items: [
+                            "<b>Tốt nhất</b>: Đặt gần cửa sổ có rèm, nơi có ánh sáng khuếch tán.",
+                            "<b>Có thể chịu được</b>: Ánh sáng yếu, nhưng lá có thể phát triển chậm hơn.",
+                            "<b>Tránh</b>: Ánh nắng trực tiếp gắt (đặc biệt là giữa trưa), vì có thể làm cháy lá, gây đốm nâu.",
+                        ]
+                    },
+                    {
+                        title: "💡 <b>Lưu ý:</b>",
+                        items: [
+                            "Nếu lá cây nhỏ hơn bình thường, ít rách (đối với Monstera lá xẻ), có thể cây đang thiếu sáng.",
+                            "Nếu đặt trong phòng tối, có thể dùng đèn LED trồng cây (<b>grow light</b>) để hỗ trợ.",
+                        ]
+                    },
+                    {
+                        title: "📍 <b>Vị trí lý tưởng trong nhà:</b>",
+                        items: [
+                            "Gần cửa sổ hướng <b>Đông hoặc Tây</b> (có rèm nhẹ).",
+                            "Nếu cửa sổ hướng Nam, cần để xa hơn hoặc có màng lọc ánh sáng.",
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Nhiệt độ phù hợp cho cây Monstera Thai Constellation",
+                type: "list",
+                content: [
+                    "🌿 <b>Nhiệt độ lý tưởng:</b> cho cây Monstera: 18 - 30°C",
+                    "Nếu nhiệt độ xuống dưới <b>10°C</b>, cây có thể bị sốc lạnh, ngừng phát triển hoặc rụng lá.",
+                    {
+                        title: "📌 <b>Lưu ý để giữ cây khỏe mạnh:</b>",
+                        items: [
+                            "<b>Tránh gió lùa và điều hòa thổi trực tiếp </b>(quạt, máy lạnh có thể làm khô lá).",
+                            "<b>Không để cây ngoài trời vào mùa lạnh</b> nếu nhiệt độ xuống dưới 15°C.",
+                            "<b>Nếu trời quá nóng </b>(>30°C), tăng cường tưới nước, tạo độ ẩm bằng phun sương hoặc đặt chậu cây gần khay nước.",
+                        ]
+                    },
+                    {
+                        title: "📍 <b>Dấu hiệu cây bị nhiệt độ ảnh hưởng:</b>",
+                        items: [
+                            "<b>Quá lạnh:</b> Lá chuyển vàng hoặc rũ xuống.",
+                            "<b>Quá nóng:</b> Lá có đốm nâu, héo nhanh dù đất vẫn ẩm."
+                        ]
+                    },
+                ]
+            },
+            {
+                title: "Nước cho cây Monstera Thai Constellation",
+                type: "list",
+                content:[
+                    "Cây Monstera thích đất ẩm nhưng không sũng nước. Cách tưới lý tưởng là <b>khi lớp đất mặt (khoảng 2-3cm) khô thì mới tưới tiếp.</b>",
+                    {
+                        title: "📌 <b>Nguyên tắc tưới nước:</b>",
+                        items: [
+                            "<b>Tưới sâu</b> đến khi nước chảy ra khỏi đáy chậu, giúp rễ hút đủ nước.",
+                            "<b>Kiểm tra độ ẩm đất trước khi tưới</b> bằng cách chọc ngón tay hoặc dùng que thử.",
+                            "<b>Giảm tưới vào mùa đông</b>, chỉ tưới khi đất khô hoàn toàn.",
+                        ]
+                    },
+                    "🚫 Tránh tưới quá nhiều, vì dễ gây úng rễ, thối gốc. Nếu thấy lá vàng nhợt nhạt, có thể bạn đang tưới quá tay!",
+                    {
+                        title: "📍 <b>Tưới bao nhiêu lần một tuần?</b>",
+                        items: [
+                            "<b>Mùa nóng:</b> 1-2 lần/tuần",
+                            "<b>Mùa lạnh:</b> 7-10 ngày/lần",
+                            "<b>Nếu trồng trong nước (thủy sinh):</b> Thay nước 1-2 lần/tuần, tránh để nước bị đục.",
+                        ]
+                    },
+                ]
+            },
+            {
+                title: "Độ ẩm cho cây Monstera Thai Constellation",
+                type: "list",
+                content: [
+                    "Cây Monstera có nguồn gốc từ rừng mưa nhiệt đới, nên thích môi trường ẩm cao.",
+                    "Tuy nhiên, cây vẫn có thể chịu được độ ẩm khoảng <b>40 - 50%</b>, nhưng nếu quá thấp, lá có thể bị khô mép và quăn lại.",
+                    {
+                        title: "📌 <b>Cách duy trì độ ẩm phù hợp:</b>",
+                        items: [
+                            "<b>Phun sương nhẹ</b> vào buổi sáng (nhưng đừng làm lá quá ướt để tránh nấm).",
+                            "<b>Đặt chậu cây trên khay đá cuội có nước</b> để tăng độ ẩm xung quanh.",
+                            "<b>Dùng máy tạo độ ẩm</b>, nhất là khi bật điều hòa hoặc sống ở nơi hanh khô.",
+                            "<b>Trồng cây theo nhóm</b> để tạo môi trường ẩm tự nhiên.",
+                        ]
+                    }
+                ]
+            },
+            {
+                title: "Độ pH lý tưởng cho cây Monstera Thai Constellation",
+                type: "list",
+                content: [
+                    "Cây trầu bà Nam Mỹ (Monstera) phát triển tốt nhất trong đất có độ pH hơi chua đến trung tính, khoảng <b>5.5 - 7.0.</b>",
+                    {
+                        title: "",
+                        items: [
+                            "🌿 Nếu pH đất quá thấp (dưới 5.5), cây có thể gặp khó khăn trong việc hấp thụ chất dinh dưỡng, đặc biệt là canxi và magie.",
+                            "🌱 Nếu pH quá cao (trên 7.0), cây có thể bị thiếu vi chất như sắt, dẫn đến hiện tượng vàng lá.",
+                        ]
+                    }
+                ]
+            }
+        ]
     },
     "13": {
         name: "Thiên tuế",
