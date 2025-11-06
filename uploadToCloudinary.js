@@ -12,7 +12,7 @@ cloudinary.config({
 
 // === 🖼️ THƯ MỤC CHỨA ẢNH GỐC ===
 // ⚠️ Sửa đường dẫn này theo máy bạn
-const inputDir = "D:\\Duc\\Hinh Anh\\AnhDep";
+const inputDir = "E:\\Duc\\HinhAnh\\Monstera";
 
 // === 📤 THƯ MỤC TẠM SAU KHI NÉN ===
 const tempDir = "./compressed";

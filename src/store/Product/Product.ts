@@ -156,41 +156,16 @@ export const productsData: ProductProps[] = [
             "Màu xanh – vàng xen kẽ biểu hiện cân bằng năng lượng âm dương, mang đến may mắn, thịnh vượng và sáng suốt."
         ]
     },
-    {
-        id: "7",
-        name: "Cây Râu Rồng",
-        secondName: "",
-        description: "Cây phong thủy",
-        images: [
-            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_27.jpg",
-            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_28.jpg",
-            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_29.jpg",
-            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_30.jpg",
-            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_31.jpg",
-            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_32.jpg",
-        ],
-        price: "340k",
-        height: "Size Nhỏ",
-        inStock: true,
-        createdAt: "2025-10-31",
-        applications: [
-            "Biểu tượng của thịnh vượng và may mắn: Lá to, xanh đậm biểu trưng cho sự sung túc, phát triển mạnh mẽ.",
-            "Tượng trưng cho thăng tiến: Cây thân leo cao, hướng sáng – tượng trưng cho sự vươn lên, thành công trong sự nghiệp.",
-            "Màu xanh – vàng xen kẽ biểu hiện cân bằng năng lượng âm dương, mang đến may mắn, thịnh vượng và sáng suốt."
-        ]
-    },
+    
     {
         id: "8",
         name: "Monstera deli nhổ trần",
         secondName: "",
         description: "Cây phong thủy",
         images: [
-            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_27.jpg",
-            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_28.jpg",
-            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_29.jpg",
-            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_30.jpg",
-            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_31.jpg",
-            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_32.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/nt1.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/nt2.jpg",
+            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/nt3.jpg",
         ],
         price: "600k/cặp",
         shipping: "Chưa bao gồm chi phí vận chuyển",
