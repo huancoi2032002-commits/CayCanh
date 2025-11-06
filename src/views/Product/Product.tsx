@@ -41,10 +41,8 @@ const Product = () => {
     // 🔍 Lọc sản phẩm
     const filteredProducts = useMemo(() => {
         return productsData.filter((p: ProductProps) => {
-            // Lọc theo tồn kho
             const matchStock = !inStockOnly || p.inStock;
 
-            // Lọc theo loại filterType
             let matchType = true;
             if (filterType === "new") {
                 matchType = p.createdAt
@@ -86,25 +84,23 @@ const Product = () => {
 
     const totalPages = Math.ceil(sortedProducts.length / itemsPerPage);
 
-    // 🔄 Chia trang
     const currentProducts = sortedProducts.slice(
         (currentPage - 1) * itemsPerPage,
         currentPage * itemsPerPage
     );
 
+    // ✅ Giữ lại sort & các params khác khi đổi trang
     const handlePageChange = (page: number) => {
-        setSearchParams({ page: page.toString() });
+        const newParams = new URLSearchParams(searchParams);
+        newParams.set("page", page.toString());
+        setSearchParams(newParams);
         listRef.current?.scrollIntoView({ behavior: "smooth" });
     };
 
     return (
         <LayoutMain>
             <div className="w-full max-w-[1200px] mx-auto md:py-8">
-                <Filter
-                    onSortChange={setSortType}
-                    onInStockChange={setInStockOnly}
-                    onPriceChange={() => { }} // không dùng lọc theo giá nữa
-                />
+                <Filter onSortChange={setSortType} onInStockChange={setInStockOnly} />
 
                 <div
                     ref={listRef}

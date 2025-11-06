@@ -395,7 +395,7 @@ export const productsData: ProductProps[] = [
     },
     {
         id: "20",
-        name: "Soobin",
+        name: "Cây Trầu Bà Subin",
         secondName: "",
         description: "Cây phong thủy",
         images: [
@@ -582,7 +582,6 @@ export const productsData: ProductProps[] = [
         description: "Cây phong thủy",
         images: [
             "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_137.jpg",
-            "https://res.cloudinary.com/duxzzujph/image/upload/v1761878475/plants/images_143.jpg",
         ],
         price: "120k",
         shipping: "Chưa bao gồm chi phí vận chuyển",

@@ -1,10 +1,11 @@
 import React from "react";
+import { useSearchParams } from "react-router-dom";
 
 interface PaginationProps {
-    currentPage: number;       // Trang hiện tại
-    totalPages: number;        // Tổng số trang
-    onPageChange: (page: number) => void; // Callback khi đổi trang
-    maxVisiblePages?: number;  // Số trang hiển thị ở giữa
+    currentPage: number;
+    totalPages: number;
+    onPageChange: (page: number) => void;
+    maxVisiblePages?: number;
     scrollToRef?: React.RefObject<HTMLDivElement | null>;
 }
 
@@ -15,18 +16,18 @@ const Pagination: React.FC<PaginationProps> = ({
     maxVisiblePages = 5,
     scrollToRef
 }) => {
+    const [searchParams, setSearchParams] = useSearchParams();
+
     if (totalPages <= 1) return null;
 
     const getPageNumbers = () => {
         const pages = [];
         let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
         let endPage = startPage + maxVisiblePages - 1;
-
         if (endPage > totalPages) {
             endPage = totalPages;
             startPage = Math.max(1, endPage - maxVisiblePages + 1);
         }
-
         for (let i = startPage; i <= endPage; i++) {
             pages.push(i);
         }
@@ -34,6 +35,11 @@ const Pagination: React.FC<PaginationProps> = ({
     };
 
     const handlePageChange = (page: number) => {
+        // Giữ nguyên các params khác
+        const newParams = new URLSearchParams(searchParams);
+        newParams.set("page", page.toString());
+        setSearchParams(newParams);
+
         onPageChange(page);
         scrollToRef?.current?.scrollIntoView({ behavior: "smooth" });
     };
