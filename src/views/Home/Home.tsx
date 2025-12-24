@@ -44,7 +44,7 @@ const Home: React.FC<HomeProps> = () => {
                             .slice(0, 8)
                         }
                         limit={8}
-                        type="new"
+                        type=""
                     />
                 </div>
                 <PostHome
